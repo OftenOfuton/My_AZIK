@@ -9,8 +9,10 @@ import openpyxl
 import pandas as pd
 
 # 設定
-EXCEL_FILE = '設定値.xlsx'
+# 入力 Excel は inputs フォルダに置く
+EXCEL_FILE = os.path.join('inputs', '設定値.xlsx')
 BACKUP_DIR = 'Ignore_ExcelBackUp'
+# 出力はプロジェクトルートに直接置く（要件）
 TSV_FILE = 'MyRomanTable.txt'
 TABLE_NAME = 'Tbl_Main'
 COLUMNS = ['入力', '出力']
