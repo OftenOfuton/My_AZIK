@@ -14,10 +14,10 @@ Tbl_Mainには，「入力」「出力」という列があり，さらにいく
 ```
 ./ -- Gitリポジトリ
 ├─ venv/ -- Python仮想環境 (gitignoreの対象)
-├─ 設定値.xlsx -- データを取り出したいExcelファイル
+├─ inputs/ -- 入力ファイルを置く（例: inputs/設定値.xlsx）
 ├─ src/ -- ソースコード
 │  └─ main.py -- メインプログラム
-├─ outputs/ -- 生成物（MyRomanTable.txt など）
+├─ MyRomanTable.txt -- 出力ファイル（プロジェクトルートに生成）
 ├─ docs/ -- ドキュメント（要求仕様など）
 └─ Ignore_ExcelBackUp/ -- 設定値.xlsxのバックアップ（gitignoreの対象）
 ```
